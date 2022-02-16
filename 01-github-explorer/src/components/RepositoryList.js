@@ -7,7 +7,7 @@ function RepositoryList() {
       <h1>Lista de repositórios</h1>
 
       <ul>
-        <RepositoryItem />
+        <RepositoryItem repository={"Unform2"} />
         <RepositoryItem />
         <RepositoryItem />
         <RepositoryItem />
