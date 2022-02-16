@@ -1,4 +1,5 @@
 import React from 'react';
+import RepositoryItem from './RepositoryItem';
 
 function RepositoryList() {
   return (
@@ -6,24 +7,11 @@ function RepositoryList() {
       <h1>Lista de repositórios</h1>
 
       <ul>
-        <li>
-          <strong>Unform</strong>
-          <p>Forms in React</p>
-
-          <a href="">Acessar Repositórios</a>
-        </li>
-        <li>
-          <strong>Unform</strong>
-          <p>Forms in React</p>
-
-          <a href="">Acessar Repositórios</a>
-        </li>
-        <li>
-          <strong>Unform</strong>
-          <p>Forms in React</p>
-
-          <a href="">Acessar Repositórios</a>
-        </li>
+        <RepositoryItem />
+        <RepositoryItem />
+        <RepositoryItem />
+        <RepositoryItem />
+        <RepositoryItem />
       </ul>
     </div>
   );
